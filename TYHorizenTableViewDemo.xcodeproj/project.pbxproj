@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0307F2D1B12028400094F1A /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = B0307F2C1B12028400094F1A /* content.json */; };
+		B050997A1B100A47004B9929 /* ImageBriefCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B05099791B100A47004B9929 /* ImageBriefCell.m */; };
+		B0D5F3B11B25BB30002E78D2 /* AttributedLableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3B01B25BB30002E78D2 /* AttributedLableCell.m */; };
+		B0D5F3C51B25BE7F002E78D2 /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3B41B25BE7F002E78D2 /* NSMutableAttributedString+TY.m */; };
+		B0D5F3C61B25BE7F002E78D2 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3B61B25BE7F002E78D2 /* TYAttributedLabel.m */; };
+		B0D5F3C71B25BE7F002E78D2 /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3B81B25BE7F002E78D2 /* TYDrawStorage.m */; };
+		B0D5F3C81B25BE7F002E78D2 /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3BA1B25BE7F002E78D2 /* TYImageStorage.m */; };
+		B0D5F3C91B25BE7F002E78D2 /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3BC1B25BE7F002E78D2 /* TYLinkTextStorage.m */; };
+		B0D5F3CA1B25BE7F002E78D2 /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3BD1B25BE7F002E78D2 /* TYTextContainer+Extended.m */; };
+		B0D5F3CB1B25BE7F002E78D2 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3BF1B25BE7F002E78D2 /* TYTextContainer.m */; };
+		B0D5F3CC1B25BE7F002E78D2 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3C11B25BE7F002E78D2 /* TYTextStorage.m */; };
+		B0D5F3CD1B25BE7F002E78D2 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3C41B25BE7F002E78D2 /* TYViewStorage.m */; };
+		B0D5F3D31B25C16A002E78D2 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3D21B25C16A002E78D2 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0D5F3D51B25C1DE002E78D2 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D5F3D41B25C1DE002E78D2 /* libicucore.dylib */; };
+		B0D5F3D81B25C377002E78D2 /* AttribtedLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F3D71B25C377002E78D2 /* AttribtedLabelController.m */; };
+		B0D5F3DC1B25C3FB002E78D2 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D5F3D91B25C3FB002E78D2 /* avatar.png */; };
+		B0D5F3DD1B25C3FB002E78D2 /* CYLoLi.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D5F3DA1B25C3FB002E78D2 /* CYLoLi.png */; };
+		B0D5F3DE1B25C3FB002E78D2 /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D5F3DB1B25C3FB002E78D2 /* haha.png */; };
+		D3613EDB1AFC8D7300ED71E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3613EDA1AFC8D7300ED71E1 /* main.m */; };
+		D3613EDE1AFC8D7300ED71E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3613EDD1AFC8D7300ED71E1 /* AppDelegate.m */; };
+		D3613EE11AFC8D7300ED71E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3613EE01AFC8D7300ED71E1 /* ViewController.m */; };
+		D3613EE41AFC8D7300ED71E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3613EE21AFC8D7300ED71E1 /* Main.storyboard */; };
+		D3613EE61AFC8D7300ED71E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3613EE51AFC8D7300ED71E1 /* Images.xcassets */; };
+		D3613EE91AFC8D7300ED71E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3613EE71AFC8D7300ED71E1 /* LaunchScreen.xib */; };
+		D3613EF51AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3613EF41AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests.m */; };
+		D3613F011AFC8DB500ED71E1 /* TYHorizenTableView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3613F001AFC8DB500ED71E1 /* TYHorizenTableView.mm */; };
+		D3613F041AFC8DF300ED71E1 /* TYHorizenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3613F031AFC8DF300ED71E1 /* TYHorizenTableViewCell.m */; };
+		D374196F1B0D7C7B002D70C6 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D374196E1B0D7C7B002D70C6 /* ColorViewController.m */; };
+		D37419721B0D8375002D70C6 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37419711B0D8375002D70C6 /* CustomViewController.m */; };
+		D37544C81B0B326A00FBB18A /* ColorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D37544C71B0B326A00FBB18A /* ColorViewCell.m */; };
+		D37544CB1B0B33AC00FBB18A /* ColorXibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D37544CA1B0B33AC00FBB18A /* ColorXibCell.m */; };
+		D37544CD1B0B33C700FBB18A /* ColorXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37544CC1B0B33C700FBB18A /* ColorXibCell.xib */; };
+		D37601431B15BBFF008C606A /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = D37601401B15BBFF008C606A /* SDWebImageCompat.m */; };
+		D37601441B15BBFF008C606A /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D37601421B15BBFF008C606A /* SDWebImageDecoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3613EEF1AFC8D7300ED71E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3613ECD1AFC8D7300ED71E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3613ED41AFC8D7300ED71E1;
+			remoteInfo = TYHorizenTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0307F2C1B12028400094F1A /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		B05099781B100A47004B9929 /* ImageBriefCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBriefCell.h; sourceTree = "<group>"; };
+		B05099791B100A47004B9929 /* ImageBriefCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBriefCell.m; sourceTree = "<group>"; };
+		B0D5F3AF1B25BB30002E78D2 /* AttributedLableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLableCell.h; sourceTree = "<group>"; };
+		B0D5F3B01B25BB30002E78D2 /* AttributedLableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLableCell.m; sourceTree = "<group>"; };
+		B0D5F3B31B25BE7F002E78D2 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		B0D5F3B41B25BE7F002E78D2 /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		B0D5F3B51B25BE7F002E78D2 /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
+		B0D5F3B61B25BE7F002E78D2 /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
+		B0D5F3B71B25BE7F002E78D2 /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
+		B0D5F3B81B25BE7F002E78D2 /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
+		B0D5F3B91B25BE7F002E78D2 /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
+		B0D5F3BA1B25BE7F002E78D2 /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
+		B0D5F3BB1B25BE7F002E78D2 /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
+		B0D5F3BC1B25BE7F002E78D2 /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
+		B0D5F3BD1B25BE7F002E78D2 /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		B0D5F3BE1B25BE7F002E78D2 /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
+		B0D5F3BF1B25BE7F002E78D2 /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
+		B0D5F3C01B25BE7F002E78D2 /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
+		B0D5F3C11B25BE7F002E78D2 /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
+		B0D5F3C21B25BE7F002E78D2 /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		B0D5F3C31B25BE7F002E78D2 /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
+		B0D5F3C41B25BE7F002E78D2 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
+		B0D5F3D11B25C16A002E78D2 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		B0D5F3D21B25C16A002E78D2 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		B0D5F3D41B25C1DE002E78D2 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		B0D5F3D61B25C377002E78D2 /* AttribtedLabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttribtedLabelController.h; sourceTree = "<group>"; };
+		B0D5F3D71B25C377002E78D2 /* AttribtedLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttribtedLabelController.m; sourceTree = "<group>"; };
+		B0D5F3D91B25C3FB002E78D2 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		B0D5F3DA1B25C3FB002E78D2 /* CYLoLi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CYLoLi.png; sourceTree = "<group>"; };
+		B0D5F3DB1B25C3FB002E78D2 /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
+		D3613ED51AFC8D7300ED71E1 /* TYHorizenTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYHorizenTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3613ED91AFC8D7300ED71E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3613EDA1AFC8D7300ED71E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3613EDC1AFC8D7300ED71E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3613EDD1AFC8D7300ED71E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3613EDF1AFC8D7300ED71E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3613EE01AFC8D7300ED71E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3613EE31AFC8D7300ED71E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3613EE51AFC8D7300ED71E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3613EE81AFC8D7300ED71E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3613EEE1AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYHorizenTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3613EF31AFC8D7300ED71E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3613EF41AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHorizenTableViewDemoTests.m; sourceTree = "<group>"; };
+		D3613EFF1AFC8DB500ED71E1 /* TYHorizenTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHorizenTableView.h; sourceTree = "<group>"; };
+		D3613F001AFC8DB500ED71E1 /* TYHorizenTableView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TYHorizenTableView.mm; sourceTree = "<group>"; };
+		D3613F021AFC8DF300ED71E1 /* TYHorizenTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHorizenTableViewCell.h; sourceTree = "<group>"; };
+		D3613F031AFC8DF300ED71E1 /* TYHorizenTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHorizenTableViewCell.m; sourceTree = "<group>"; };
+		D374196D1B0D7C7B002D70C6 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		D374196E1B0D7C7B002D70C6 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		D37419701B0D8375002D70C6 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		D37419711B0D8375002D70C6 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		D37544C61B0B326A00FBB18A /* ColorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewCell.h; sourceTree = "<group>"; };
+		D37544C71B0B326A00FBB18A /* ColorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewCell.m; sourceTree = "<group>"; };
+		D37544C91B0B33AC00FBB18A /* ColorXibCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorXibCell.h; sourceTree = "<group>"; };
+		D37544CA1B0B33AC00FBB18A /* ColorXibCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorXibCell.m; sourceTree = "<group>"; };
+		D37544CC1B0B33C700FBB18A /* ColorXibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorXibCell.xib; sourceTree = "<group>"; };
+		D376013F1B15BBFF008C606A /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		D37601401B15BBFF008C606A /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		D37601411B15BBFF008C606A /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		D37601421B15BBFF008C606A /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3613ED21AFC8D7300ED71E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D5F3D51B25C1DE002E78D2 /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3613EEB1AFC8D7300ED71E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0D5F3B21B25BE7F002E78D2 /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B0D5F3B31B25BE7F002E78D2 /* NSMutableAttributedString+TY.h */,
+				B0D5F3B41B25BE7F002E78D2 /* NSMutableAttributedString+TY.m */,
+				B0D5F3B51B25BE7F002E78D2 /* TYAttributedLabel.h */,
+				B0D5F3B61B25BE7F002E78D2 /* TYAttributedLabel.m */,
+				B0D5F3B71B25BE7F002E78D2 /* TYDrawStorage.h */,
+				B0D5F3B81B25BE7F002E78D2 /* TYDrawStorage.m */,
+				B0D5F3B91B25BE7F002E78D2 /* TYImageStorage.h */,
+				B0D5F3BA1B25BE7F002E78D2 /* TYImageStorage.m */,
+				B0D5F3BB1B25BE7F002E78D2 /* TYLinkTextStorage.h */,
+				B0D5F3BC1B25BE7F002E78D2 /* TYLinkTextStorage.m */,
+				B0D5F3BD1B25BE7F002E78D2 /* TYTextContainer+Extended.m */,
+				B0D5F3BE1B25BE7F002E78D2 /* TYTextContainer.h */,
+				B0D5F3BF1B25BE7F002E78D2 /* TYTextContainer.m */,
+				B0D5F3C01B25BE7F002E78D2 /* TYTextStorage.h */,
+				B0D5F3C11B25BE7F002E78D2 /* TYTextStorage.m */,
+				B0D5F3C21B25BE7F002E78D2 /* TYTextStorageProtocol.h */,
+				B0D5F3C31B25BE7F002E78D2 /* TYViewStorage.h */,
+				B0D5F3C41B25BE7F002E78D2 /* TYViewStorage.m */,
+			);
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
+		D3613ECC1AFC8D7300ED71E1 = {
+			isa = PBXGroup;
+			children = (
+				D3613ED71AFC8D7300ED71E1 /* TYHorizenTableViewDemo */,
+				D3613EF11AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests */,
+				D3613ED61AFC8D7300ED71E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3613ED61AFC8D7300ED71E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3613ED51AFC8D7300ED71E1 /* TYHorizenTableViewDemo.app */,
+				D3613EEE1AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3613ED71AFC8D7300ED71E1 /* TYHorizenTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3613EFE1AFC8D8700ED71E1 /* TYHorizenTableView */,
+				D36424461B0C71B100F9DE8C /* customCell */,
+				D37601451B15BC62008C606A /* Tool */,
+				D3613EDC1AFC8D7300ED71E1 /* AppDelegate.h */,
+				D3613EDD1AFC8D7300ED71E1 /* AppDelegate.m */,
+				D3613EDF1AFC8D7300ED71E1 /* ViewController.h */,
+				D3613EE01AFC8D7300ED71E1 /* ViewController.m */,
+				D374196D1B0D7C7B002D70C6 /* ColorViewController.h */,
+				D374196E1B0D7C7B002D70C6 /* ColorViewController.m */,
+				D37419701B0D8375002D70C6 /* CustomViewController.h */,
+				D37419711B0D8375002D70C6 /* CustomViewController.m */,
+				B0D5F3D61B25C377002E78D2 /* AttribtedLabelController.h */,
+				B0D5F3D71B25C377002E78D2 /* AttribtedLabelController.m */,
+				D3613EE21AFC8D7300ED71E1 /* Main.storyboard */,
+				D3613EE51AFC8D7300ED71E1 /* Images.xcassets */,
+				D3613EE71AFC8D7300ED71E1 /* LaunchScreen.xib */,
+				D3613ED81AFC8D7300ED71E1 /* Supporting Files */,
+			);
+			path = TYHorizenTableViewDemo;
+			sourceTree = "<group>";
+		};
+		D3613ED81AFC8D7300ED71E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D5F3D91B25C3FB002E78D2 /* avatar.png */,
+				B0D5F3DA1B25C3FB002E78D2 /* CYLoLi.png */,
+				B0D5F3DB1B25C3FB002E78D2 /* haha.png */,
+				B0307F2C1B12028400094F1A /* content.json */,
+				B0D5F3D41B25C1DE002E78D2 /* libicucore.dylib */,
+				D3613ED91AFC8D7300ED71E1 /* Info.plist */,
+				D3613EDA1AFC8D7300ED71E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3613EF11AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3613EF41AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests.m */,
+				D3613EF21AFC8D7300ED71E1 /* Supporting Files */,
+			);
+			path = TYHorizenTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		D3613EF21AFC8D7300ED71E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3613EF31AFC8D7300ED71E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3613EFE1AFC8D8700ED71E1 /* TYHorizenTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D3613EFF1AFC8DB500ED71E1 /* TYHorizenTableView.h */,
+				D3613F001AFC8DB500ED71E1 /* TYHorizenTableView.mm */,
+				D3613F021AFC8DF300ED71E1 /* TYHorizenTableViewCell.h */,
+				D3613F031AFC8DF300ED71E1 /* TYHorizenTableViewCell.m */,
+			);
+			path = TYHorizenTableView;
+			sourceTree = "<group>";
+		};
+		D36424461B0C71B100F9DE8C /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				B0D5F3B21B25BE7F002E78D2 /* TYAttributedLabel */,
+				D37544C61B0B326A00FBB18A /* ColorViewCell.h */,
+				D37544C71B0B326A00FBB18A /* ColorViewCell.m */,
+				D37544C91B0B33AC00FBB18A /* ColorXibCell.h */,
+				D37544CA1B0B33AC00FBB18A /* ColorXibCell.m */,
+				D37544CC1B0B33C700FBB18A /* ColorXibCell.xib */,
+				B05099781B100A47004B9929 /* ImageBriefCell.h */,
+				B05099791B100A47004B9929 /* ImageBriefCell.m */,
+				B0D5F3AF1B25BB30002E78D2 /* AttributedLableCell.h */,
+				B0D5F3B01B25BB30002E78D2 /* AttributedLableCell.m */,
+			);
+			name = customCell;
+			sourceTree = "<group>";
+		};
+		D37601451B15BC62008C606A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B0D5F3D11B25C16A002E78D2 /* RegexKitLite.h */,
+				B0D5F3D21B25C16A002E78D2 /* RegexKitLite.m */,
+				D376013F1B15BBFF008C606A /* SDWebImageCompat.h */,
+				D37601401B15BBFF008C606A /* SDWebImageCompat.m */,
+				D37601411B15BBFF008C606A /* SDWebImageDecoder.h */,
+				D37601421B15BBFF008C606A /* SDWebImageDecoder.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3613ED41AFC8D7300ED71E1 /* TYHorizenTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3613EF81AFC8D7300ED71E1 /* Build configuration list for PBXNativeTarget "TYHorizenTableViewDemo" */;
+			buildPhases = (
+				D3613ED11AFC8D7300ED71E1 /* Sources */,
+				D3613ED21AFC8D7300ED71E1 /* Frameworks */,
+				D3613ED31AFC8D7300ED71E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYHorizenTableViewDemo;
+			productName = TYHorizenTableViewDemo;
+			productReference = D3613ED51AFC8D7300ED71E1 /* TYHorizenTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3613EED1AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3613EFB1AFC8D7300ED71E1 /* Build configuration list for PBXNativeTarget "TYHorizenTableViewDemoTests" */;
+			buildPhases = (
+				D3613EEA1AFC8D7300ED71E1 /* Sources */,
+				D3613EEB1AFC8D7300ED71E1 /* Frameworks */,
+				D3613EEC1AFC8D7300ED71E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3613EF01AFC8D7300ED71E1 /* PBXTargetDependency */,
+			);
+			name = TYHorizenTableViewDemoTests;
+			productName = TYHorizenTableViewDemoTests;
+			productReference = D3613EEE1AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3613ECD1AFC8D7300ED71E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tanyang;
+				TargetAttributes = {
+					D3613ED41AFC8D7300ED71E1 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D3613EED1AFC8D7300ED71E1 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D3613ED41AFC8D7300ED71E1;
+					};
+				};
+			};
+			buildConfigurationList = D3613ED01AFC8D7300ED71E1 /* Build configuration list for PBXProject "TYHorizenTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3613ECC1AFC8D7300ED71E1;
+			productRefGroup = D3613ED61AFC8D7300ED71E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3613ED41AFC8D7300ED71E1 /* TYHorizenTableViewDemo */,
+				D3613EED1AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3613ED31AFC8D7300ED71E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D5F3DC1B25C3FB002E78D2 /* avatar.png in Resources */,
+				D3613EE41AFC8D7300ED71E1 /* Main.storyboard in Resources */,
+				D3613EE91AFC8D7300ED71E1 /* LaunchScreen.xib in Resources */,
+				D3613EE61AFC8D7300ED71E1 /* Images.xcassets in Resources */,
+				B0D5F3DD1B25C3FB002E78D2 /* CYLoLi.png in Resources */,
+				B0D5F3DE1B25C3FB002E78D2 /* haha.png in Resources */,
+				D37544CD1B0B33C700FBB18A /* ColorXibCell.xib in Resources */,
+				B0307F2D1B12028400094F1A /* content.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3613EEC1AFC8D7300ED71E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3613ED11AFC8D7300ED71E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37601431B15BBFF008C606A /* SDWebImageCompat.m in Sources */,
+				B0D5F3CB1B25BE7F002E78D2 /* TYTextContainer.m in Sources */,
+				B050997A1B100A47004B9929 /* ImageBriefCell.m in Sources */,
+				D37544CB1B0B33AC00FBB18A /* ColorXibCell.m in Sources */,
+				B0D5F3D81B25C377002E78D2 /* AttribtedLabelController.m in Sources */,
+				B0D5F3C91B25BE7F002E78D2 /* TYLinkTextStorage.m in Sources */,
+				B0D5F3C51B25BE7F002E78D2 /* NSMutableAttributedString+TY.m in Sources */,
+				D37544C81B0B326A00FBB18A /* ColorViewCell.m in Sources */,
+				B0D5F3CA1B25BE7F002E78D2 /* TYTextContainer+Extended.m in Sources */,
+				B0D5F3C61B25BE7F002E78D2 /* TYAttributedLabel.m in Sources */,
+				B0D5F3C81B25BE7F002E78D2 /* TYImageStorage.m in Sources */,
+				D37601441B15BBFF008C606A /* SDWebImageDecoder.m in Sources */,
+				D3613EE11AFC8D7300ED71E1 /* ViewController.m in Sources */,
+				D3613F041AFC8DF300ED71E1 /* TYHorizenTableViewCell.m in Sources */,
+				D3613EDE1AFC8D7300ED71E1 /* AppDelegate.m in Sources */,
+				B0D5F3C71B25BE7F002E78D2 /* TYDrawStorage.m in Sources */,
+				B0D5F3CC1B25BE7F002E78D2 /* TYTextStorage.m in Sources */,
+				D37419721B0D8375002D70C6 /* CustomViewController.m in Sources */,
+				B0D5F3D31B25C16A002E78D2 /* RegexKitLite.m in Sources */,
+				B0D5F3CD1B25BE7F002E78D2 /* TYViewStorage.m in Sources */,
+				D3613F011AFC8DB500ED71E1 /* TYHorizenTableView.mm in Sources */,
+				B0D5F3B11B25BB30002E78D2 /* AttributedLableCell.m in Sources */,
+				D374196F1B0D7C7B002D70C6 /* ColorViewController.m in Sources */,
+				D3613EDB1AFC8D7300ED71E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3613EEA1AFC8D7300ED71E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3613EF51AFC8D7300ED71E1 /* TYHorizenTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3613EF01AFC8D7300ED71E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3613ED41AFC8D7300ED71E1 /* TYHorizenTableViewDemo */;
+			targetProxy = D3613EEF1AFC8D7300ED71E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3613EE21AFC8D7300ED71E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3613EE31AFC8D7300ED71E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3613EE71AFC8D7300ED71E1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3613EE81AFC8D7300ED71E1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3613EF61AFC8D7300ED71E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3613EF71AFC8D7300ED71E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3613EF91AFC8D7300ED71E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYHorizenTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanyang.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3613EFA1AFC8D7300ED71E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYHorizenTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanyang.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3613EFC1AFC8D7300ED71E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYHorizenTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanyang.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYHorizenTableViewDemo.app/TYHorizenTableViewDemo";
+			};
+			name = Debug;
+		};
+		D3613EFD1AFC8D7300ED71E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYHorizenTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanyang.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYHorizenTableViewDemo.app/TYHorizenTableViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3613ED01AFC8D7300ED71E1 /* Build configuration list for PBXProject "TYHorizenTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3613EF61AFC8D7300ED71E1 /* Debug */,
+				D3613EF71AFC8D7300ED71E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3613EF81AFC8D7300ED71E1 /* Build configuration list for PBXNativeTarget "TYHorizenTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3613EF91AFC8D7300ED71E1 /* Debug */,
+				D3613EFA1AFC8D7300ED71E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3613EFB1AFC8D7300ED71E1 /* Build configuration list for PBXNativeTarget "TYHorizenTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3613EFC1AFC8D7300ED71E1 /* Debug */,
+				D3613EFD1AFC8D7300ED71E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3613ECD1AFC8D7300ED71E1 /* Project object */;
+}
